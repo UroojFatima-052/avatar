@@ -77,9 +77,7 @@ you are typing in a field.
 
 Settings → **Agents**. When enabled, AVATAR runs a local loopback bus so external tools (scripts, MCP clients, agents) can drive the stage over HTTP and WebSocket at `127.0.0.1:47903`. Off by default; only listens on the loopback interface.
 
-<p align="center">
-  <img src="screenshots/AGENTS_PANEL_PLACEHOLDER.png" alt="Settings → Agents panel (screenshot pending, see #33)" height="260" />
-</p>
+> _Screenshot of the Settings → Agents panel pending (tracked in #33)._
 
 ```yaml
 agentBus:
