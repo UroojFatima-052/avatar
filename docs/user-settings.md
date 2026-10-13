@@ -111,6 +111,7 @@ See [Agents / local bus](agents/local-bus.md) for the full command reference, `c
 | `vroid-hub-credentials.json` | Encrypted OAuth client ID / secret (`safeStorage`) |
 | `vroid-hub-auth.json` | Encrypted access / refresh tokens |
 | `window-state.json` | Window bounds (separate from YAML prefs) |
+| `agent-bus.json` | Encrypted local agent bus bearer token (`safeStorage`) |
 
 **Reset all settings** clears `config.yaml` preferences only. Use **Disconnect** / **Remove app credentials** in Settings for Hub session / OAuth app data.
 
